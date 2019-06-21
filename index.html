@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>一般Iframe</title>
+</head>
+<body>
+<div>
+    <iframe id="youtube" width="480" height="720" src="https://www.youtube.com/embed/C9hcUB7Acn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/customIframeSize.js"></script>
+<script>
+    $('#youtube').customIframeSize({
+        resize: true,
+        windowHeight: 1080,
+        mobileWindowHeight: 1000
+    });
+</script>

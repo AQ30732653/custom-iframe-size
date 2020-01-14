@@ -1,5 +1,5 @@
 /*!
- * custom-iframe-size version 1.0
+ * jQuery custom-iframe-size version 1.1
  *
  * options:
  * url                - iframe連結
@@ -14,7 +14,7 @@
  * mobileHeight       - 設定iframe高度(行動裝置)
  * mobileWindowHeight - 瀏覽器視窗的高度(行動裝置)
  *
- * Copyright (C) 2019 - A project by Roy.Jiang
+ * Copyright (C) 2020 - A project by Roy.Jiang (https://github.com/AQ30732653/jquery.custom-iframe-size)
  */
 (function ($) {
     $.fn.customIframeSize = function(options) {
